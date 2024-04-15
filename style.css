@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 70px;
+    height: 70px;
+}
+.square{
+    border:1px solid green;
+}
