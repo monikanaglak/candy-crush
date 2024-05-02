@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   create_board();
-  let colorBeingDragged;
+  let color_being_dragged;
   //events
   squares.forEach((square) => square.addEventListener("dragstart", dragstart));
   squares.forEach((square) => square.addEventListener("dragend", dragend));
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function dragstart() {
     console.log(this.id);
-    colorBeingDragged = this.style.background;
-    console.log(colorBeingDragged)
+    color_being_dragged = this.style.background;
+    console.log(color_being_dragged)
   }
   function dragend() {
     console.log(this.id);
